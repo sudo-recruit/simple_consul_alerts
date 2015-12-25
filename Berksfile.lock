@@ -1,0 +1,15 @@
+DEPENDENCIES
+  consul_alerts
+    path: .
+    metadata: true
+
+GRAPH
+  apt (2.9.2)
+  consul_alerts (0.0.1)
+    apt (>= 0.0.0)
+    golang (>= 0.0.0)
+    poise-service (~> 1.0.3)
+  golang (1.7.0)
+  poise (2.4.0)
+  poise-service (1.0.3)
+    poise (~> 2.0)
