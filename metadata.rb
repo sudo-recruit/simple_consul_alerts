@@ -1,4 +1,4 @@
-name "consul_alerts"
+name "simple_consul_alerts"
 version "0.0.1"
 maintainer "ocowchun"
 maintainer_email "ocowchun@gmail.com"
