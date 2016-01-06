@@ -14,7 +14,7 @@ directory data_dir do
 end
 
 poise_service 'consul_alerts' do
-  command '/usr/bin/env consul-alerts start --watch-events --watch-checks'
+  command '/usr/bin/env consul-alerts start --watch-events --watch-checks --log-level=info'
   user 'consul_alerts'
   directory data_dir
   environment PATH:'/opt/go/bin:/usr/local/bin:/usr/bin:/bin'

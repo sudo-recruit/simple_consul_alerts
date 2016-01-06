@@ -1,5 +1,5 @@
 name "simple_consul_alerts"
-version "0.0.1"
+version "0.0.2"
 maintainer "ocowchun"
 maintainer_email "ocowchun@gmail.com"
 supports "ubuntu"
