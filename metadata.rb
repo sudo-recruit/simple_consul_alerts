@@ -1,5 +1,5 @@
 name "simple_consul_alerts"
-version "0.0.2"
+version "0.0.3"
 maintainer "ocowchun"
 maintainer_email "ocowchun@gmail.com"
 license  "MIT"
@@ -9,4 +9,4 @@ long_description IO.read(File.join(File.dirname(__FILE__), "README.md"))
 
 depends 'apt'
 depends 'golang'
-depends 'poise-service', '~> 1.0.3'
+depends 'poise-service', '~> 1.4.2'
